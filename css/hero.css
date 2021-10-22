@@ -1,0 +1,15 @@
+.hero-social__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-social__item--active {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #B00000;
+  list-style: none;
+}/*# sourceMappingURL=hero.css.map */

@@ -1,0 +1,246 @@
+.price__title {
+           font-family: Poppins;
+           font-style: normal;
+           font-weight: 600;
+           font-size: 50px;
+           line-height: 60px;
+           text-align: center;
+           color: #000000;
+           width: 640px;
+           margin: 0 auto;
+}
+
+.price-sub__title {
+           font-family: Poppins;
+           font-style: normal;
+           font-weight: normal;
+           font-size: 25px;
+           line-height: 25px;
+           text-align: center;
+           color: #000000;
+}
+
+.switch {
+           position: relative;
+           display: inline-block;
+           width: 60px;
+           height: 34px;
+}
+
+.switch input {
+           opacity: 0;
+           width: 0;
+           height: 0;
+}
+
+.slider {
+           position: absolute;
+           cursor: pointer;
+           top: 0;
+           left: 0;
+           right: 0;
+           bottom: 0;
+           background-color: #ccc;
+           -webkit-transition: .4s;
+           transition: .4s;
+}
+
+.slider:before {
+           position: absolute;
+           content: "";
+           height: 26px;
+           width: 26px;
+           left: 4px;
+           bottom: 4px;
+           background-color: white;
+           -webkit-transition: .4s;
+           transition: .4s;
+}
+
+input:checked+.slider {
+           background-color: #b00000;
+}
+
+input:focus+.slider {
+           box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+           -webkit-transform: translateX(26px);
+           -ms-transform: translateX(26px);
+           transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+           border-radius: 34px;
+}
+
+.slider.round:before {
+           border-radius: 50%;
+}
+
+.price__switch {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           width: 400px;
+           margin: 0 auto;
+}
+
+.price-switch__title {
+           font-family: Poppins;
+           font-style: normal;
+           font-weight: normal;
+           font-size: 25px;
+           line-height: 25px;
+           text-align: center;
+           color: #000000;
+}
+
+.price__span {
+           font-family: Poppins;
+           font-style: normal;
+           font-weight: 500;
+           font-size: 10px;
+           line-height: 9px;
+           text-align: center;
+           color: #000000;
+           background: #FFE87A;
+           border-radius: 8px;
+           padding: 8px;
+}
+
+.trafic {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           width: 550px;
+           margin-left: 250px;
+           position: relative;
+           margin-bottom: 85px;
+
+}
+
+.trafic::before {
+           content: '';
+           display: block;
+           background: #C4C4C4;
+           width: 856px;
+           height: 4px;
+           position: absolute;
+           bottom: 0;
+           left: -150px;
+
+}
+
+.trafic::after {
+           content: '';
+           display: block;
+           background: #B00000;
+           width: 443px;
+           height: 4px;
+           position: absolute;
+           bottom: 0;
+           left: -150px;
+}
+
+.trafic__title {
+           font-family: Poppins;
+           font-style: normal;
+           font-weight: 600;
+           font-size: 30px;
+           line-height: 40px;
+           text-align: center;
+           color: #000000;
+}
+
+.starter {
+           background: #FFFFFF;
+           border: 1.5px solid #C4C4C4;
+           box-sizing: border-box;
+           box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+           border-radius: 15px;
+           width: 299px;
+           height: 716px;
+           padding: 34px;
+}
+
+.started__title {
+           font-family: Poppins;
+           font-style: normal;
+           font-weight: 600;
+           font-size: 28px;
+           line-height: 25px;
+           color: #000000;
+}
+
+.started__text {
+           font-family: Poppins;
+           font-style: normal;
+           font-weight: normal;
+           font-size: 12px;
+           line-height: 18px;
+           color: #000000;
+           width: 237px;
+           margin-bottom: 30px;
+}
+
+.started__number {
+           font-family: Poppins;
+           font-style: normal;
+           font-weight: 600;
+           font-size: 42px;
+           line-height: 32px;
+           color: #000000;
+           margin: 0;
+}
+
+.started-sub__text {
+           font-family: Poppins;
+           font-style: normal;
+           font-weight: 300;
+           font-size: 14px;
+           line-height: 14px;
+           color: #000000;
+           margin-bottom: 45px;
+}
+
+.btn__price {
+           font-family: Poppins;
+           font-style: normal;
+           font-weight: 600;
+           font-size: 14px;
+           line-height: 32px;
+           text-align: center;
+           color: #000000;
+           background: #FFFFFF;
+           border: 2px solid #000000;
+           box-sizing: border-box;
+           border-radius: 12px;
+           text-decoration: none;
+           padding: 10px 52px;
+           &:hover{
+                      background: #b00000;
+                      color: #fff;
+           }
+}
+
+.started__list {
+           padding: 0;
+
+}
+
+.started__item {
+           font-family: Inter;
+           font-style: normal;
+           font-weight: bold;
+           font-size: 16px;
+           line-height: 24px;
+           color: #808080;
+           list-style: none;
+           margin-bottom: 15px;
+}
+.mdi-check{
+           color: #000;
+}

@@ -1,0 +1,31 @@
+.website__title {
+           font-family: Inter;
+           font-style: normal;
+           font-weight: 800;
+           font-size: 48px;
+           line-height: 64px;
+           color: #18191F;
+           width: 441px;
+}
+
+.website__text {
+           font-family: Inter;
+           font-style: normal;
+           font-weight: normal;
+           font-size: 18px;
+           line-height: 32px;
+           color: #18191F;
+           width: 436px;
+}
+.website__body{
+           display: flex;
+           justify-content: space-between;
+}
+.website-img__block{
+           width: 550px;
+}
+.website__img{
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+}

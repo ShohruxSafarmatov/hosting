@@ -1,0 +1,31 @@
+.hosting__title {
+           font-family: Inter;
+           font-style: normal;
+           font-weight: 800;
+           font-size: 48px;
+           line-height: 64px;
+           color: #18191F;
+}
+
+.hosting__text {
+           font-family: Inter;
+           font-style: normal;
+           font-weight: normal;
+           font-size: 18px;
+           line-height: 32px;
+           color: #18191F;
+           width: 555px;
+}
+.hosting__body{
+           display: flex;
+           justify-content: space-between;
+           align-items: baseline;
+}
+.hosting-img__block{
+           width: 550px;
+}
+.hosting__img{
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+}
