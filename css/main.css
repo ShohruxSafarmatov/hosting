@@ -1187,4 +1187,57 @@ input:checked + .slider:before {
 
 .mdi-whatsapp {
   margin-right: 5px;
+}
+
+footer {
+  background: #b00000;
+  padding-top: 80px;
+}
+
+.footer__text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #E6E6E6;
+  width: 290px;
+}
+
+.footer-bottom__text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.footer__list {
+  padding: 0;
+}
+
+.footer__item {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.footer__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #E6E6E6;
+  text-decoration: none;
+}
+
+.footer__link--active {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
