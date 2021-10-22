@@ -581,6 +581,10 @@ img {
   overflow: hidden;
 }
 
+#hero {
+  margin-bottom: 80px;
+}
+
 .hero-social__list {
   display: flex;
   justify-content: space-between;
@@ -699,6 +703,10 @@ img {
   height: 504px;
 }
 
+#hosting {
+  margin-bottom: 120px;
+}
+
 .hosting__title {
   font-family: Inter;
   font-style: normal;
@@ -732,6 +740,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#service {
+  margin-bottom: 130px;
 }
 
 .service__block {
@@ -1003,6 +1015,10 @@ input:checked + .slider:before {
   color: #000;
 }
 
+#customer {
+  margin-bottom: 85px;
+}
+
 .customer__container {
   background-image: url("/img/Quote Mark.png");
   background-repeat: no-repeat;
@@ -1109,6 +1125,10 @@ input:checked + .slider:before {
   transform: translate(520px, -500px);
 }
 
+#website {
+  margin-bottom: 110px;
+}
+
 .website__title {
   font-family: Inter;
   font-style: normal;
@@ -1152,6 +1172,7 @@ input:checked + .slider:before {
   height: 350px;
   padding: 35px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .awesome__title {
